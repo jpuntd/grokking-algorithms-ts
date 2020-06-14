@@ -1,10 +1,7 @@
-import http from "http";
+import binarySearch from "./1-binary-search";
 
-console.log("Hello World!");
-//create a server object:
-http
-  .createServer(function(req, res) {
-    res.write("Hello World!"); //write a response to the client
-    res.end(); //end the response
-  })
-  .listen(8080); //the server object listens on port 8080
+const ns = [0, 2, 5, 8, 9, 23, 56, 78];
+console.log(binarySearch(ns, 8));
+
+const users = ["Alice", "Bob", "Claire", "Di", "Erin", "Farah"];
+console.log(binarySearch(users, "Bob"));
