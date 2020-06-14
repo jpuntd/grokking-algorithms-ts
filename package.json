@@ -1,7 +1,7 @@
 {
-  "name": "node-typescript-template",
+  "name": "grokking-algorithms-typescript",
   "version": "1.0.0",
-  "description": "nodejs typescript template",
+  "description": "",
   "main": "src/index.ts",
   "scripts": {
     "start": "nodemon --exec ts-node src/index.ts"
