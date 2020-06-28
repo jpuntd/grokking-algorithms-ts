@@ -1,7 +1,7 @@
 import binarySearch from "./1-binary-search";
 import bfs from "./6-breadth-first-search";
 import quicksort from "./4-quicksort";
-import dijkstra from "./7-dijkstra";
+import runSetCovering from "./8-set-covering";
 
 const ns = [0, 2, 5, 8, 9, 23, 56, 78];
 console.log(binarySearch(ns, 8));
@@ -27,4 +27,4 @@ const graph: Object = {
   poster: { drums: 35, bass: 30 }
 };
 
-dijkstra(graph, "book", "piano");
+runSetCovering();

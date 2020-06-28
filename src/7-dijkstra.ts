@@ -1,7 +1,7 @@
 function lowestCostNode(costs) {
   return;
 }
-
+/*
 export default function dijkstra(
   graph: Object,
   source: string,
@@ -16,5 +16,6 @@ export default function dijkstra(
   costs[source] = 0;
   console.log(costs);
 
-  curentNode = lowestCostNode(costs);
+  currentNode = lowestCostNode(costs);
 }
+*/
